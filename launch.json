@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: pytest (workspace)",
+            "type": "python",
+            "request": "launch",
+            "program": null,
+            "module": "pytest",
+            "console": "integratedTerminal",
+            "args": "",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Python: Current File (cwd)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": "",
+            "cwd": "${fileDirname}"
+        }
+    ]
+}

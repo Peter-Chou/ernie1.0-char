@@ -1,0 +1,5 @@
+{
+    "venv": "kg-nlp",
+    "pythonVersion": "3.8",
+    "typeCheckingMode": "off"
+}
